@@ -1,7 +1,7 @@
 
 #📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro
 
-   1. Introdução
+##1. Introdução
 
 Em sistemas Windows, diversos mecanismos permitem que programas sejam executados automaticamente durante o processo de inicialização ou no momento do logon do usuário. Esses mecanismos são amplamente utilizados por softwares legítimos, como antivírus, ferramentas corporativas e aplicativos de produtividade.
 
@@ -9,7 +9,7 @@ No entanto, os mesmos recursos também podem ser explorados de forma indevida, o
 
 Esta aula aborda especificamente a persistência via chaves “Run” do Registro do Windows, com foco educacional e defensivo, em ambientes controlados.
 
-2. O que é persistência?
+'2. O que é persistência?'
 
 Persistência é a capacidade de um programa continuar sendo executado mesmo após:
 
@@ -37,9 +37,9 @@ parâmetros de softwares instalados
 
 Ele é dividido em hives, como:
 
-HKEY_CURRENT_USER (HKCU)
+    HKEY_CURRENT_USER (HKCU)
 
-HKEY_LOCAL_MACHINE (HKLM)
+    HKEY_LOCAL_MACHINE (HKLM)
 
 Algumas dessas chaves são processadas automaticamente pelo Windows durante o logon.
 
@@ -48,7 +48,8 @@ Algumas dessas chaves são processadas automaticamente pelo Windows durante o lo
 As chaves mais conhecidas para execução automática são:
 
 🔹 Execução para o usuário atual
-HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+      HKCU\Software\Microsoft\Windows\CurrentVersion\Run
 
 
 Executa programas quando o usuário atual faz login
@@ -58,7 +59,8 @@ Não requer privilégios administrativos
 Muito usada por aplicações legítimas
 
 🔹 Execução para todos os usuários
-HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+
+    HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 
 
 Executa programas para todos os usuários
@@ -95,7 +97,7 @@ evitar execução manual repetida
 
 Por esse motivo, essa técnica é amplamente conhecida e documentada em frameworks de segurança.
 
-📌 No MITRE ATT&CK, ela aparece como:
+#📌 No MITRE ATT&CK, ela aparece como:
 
 T1547.001 – Registry Run Keys / Startup Folder
 
