@@ -1,7 +1,7 @@
 
-#📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro
+#📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro#
 
-##1. Introdução
+##1. Introdução##
 
 Em sistemas Windows, diversos mecanismos permitem que programas sejam executados automaticamente durante o processo de inicialização ou no momento do logon do usuário. Esses mecanismos são amplamente utilizados por softwares legítimos, como antivírus, ferramentas corporativas e aplicativos de produtividade.
 
