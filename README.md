@@ -1,4 +1,3 @@
-
 #📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro#
 
 ##1. Introdução##
