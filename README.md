@@ -1,6 +1,6 @@
-#📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro#
+#📘 Aula: Persistência no Windows via Chaves de Inicialização do Registro
 
-##1. Introdução##
+##1. Introdução
 
 Em sistemas Windows, diversos mecanismos permitem que programas sejam executados automaticamente durante o processo de inicialização ou no momento do logon do usuário. Esses mecanismos são amplamente utilizados por softwares legítimos, como antivírus, ferramentas corporativas e aplicativos de produtividade.
 
@@ -8,7 +8,7 @@ No entanto, os mesmos recursos também podem ser explorados de forma indevida, o
 
 Esta aula aborda especificamente a persistência via chaves “Run” do Registro do Windows, com foco educacional e defensivo, em ambientes controlados.
 
-'2. O que é persistência?'
+#2. O que é persistência?
 
 Persistência é a capacidade de um programa continuar sendo executado mesmo após:
 
@@ -24,7 +24,7 @@ softwares legítimos precisam dela para funcionar corretamente
 
 códigos maliciosos a utilizam para manter acesso ao sistema
 
-3. O Registro do Windows
+#3. O Registro do Windows
 
 O Registro do Windows é um banco de dados hierárquico que armazena:
 
@@ -42,7 +42,7 @@ Ele é dividido em hives, como:
 
 Algumas dessas chaves são processadas automaticamente pelo Windows durante o logon.
 
-4. Chaves de inicialização automática (Run Keys)
+#4. Chaves de inicialização automática (Run Keys)
 
 As chaves mais conhecidas para execução automática são:
 
@@ -68,7 +68,7 @@ Requer privilégios de administrador
 
 Cada entrada nessas chaves aponta para um executável que será iniciado automaticamente.
 
-5. Uso legítimo dessas chaves
+#5. Uso legítimo dessas chaves
 
 Essas chaves são usadas, por exemplo, por:
 
