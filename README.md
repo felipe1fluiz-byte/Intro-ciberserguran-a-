@@ -130,15 +130,15 @@ uso de ferramentas como:
 
 ## 9. Boas práticas defensivas
 
-Monitorar alterações no Registro
+- Monitorar alterações no Registro
 
-Revisar programas de inicialização
+- Revisar programas de inicialização
 
-Utilizar ferramentas de inventário e EDR
+- Utilizar ferramentas de inventário e EDR
 
-Manter políticas de privilégio mínimo
+- Manter políticas de privilégio mínimo
 
-Testar técnicas apenas em laboratórios autorizados
+**Testar técnicas apenas em laboratórios autorizados**
 
 ## 10. Conclusão
 
